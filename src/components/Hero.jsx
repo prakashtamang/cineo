@@ -1,9 +1,10 @@
 import React from "react";
+import heroBg from "../assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
     <section className="hero">
-      <img src="/src/assets/hero-bg.jpg" alt="" />
+      <img src={heroBg} alt="" />
       <div className="container">
         <div className="row">
           <div className="hero-content col-12 col-lg-8">
